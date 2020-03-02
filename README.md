@@ -62,7 +62,7 @@ for collection_name in db.list_collection_names(None)? {
 ```
 ### Inserting documents into a collection
 ```rust
-use bson::{doc, bson};
+use bson::{doc, bson, Bson};
 ```
 ```rust
 // Get a handle to a collection in the database.
